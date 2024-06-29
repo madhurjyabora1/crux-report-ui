@@ -1,0 +1,77 @@
+.data-display-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filter-input {
+  width: 100%;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.data-table {
+  min-width: 650px;
+}
+
+.header-cell {
+  font-weight: 600 !important;
+}
+.metric-cell {
+  font-weight: bold;
+}
+
+.summary-cell {
+  font-weight: bold;
+}
+
+.even-row {
+  background-color: #ffffff;
+}
+
+.odd-row {
+  background-color: #f9f9f9;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.MuiTableSortLabel-icon {
+  margin-right: 4px !important;
+  margin-left: 0 !important;
+  opacity: 0.5 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.MuiTableSortLabel-active .MuiTableSortLabel-icon {
+  opacity: 1 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.error-cell {
+  color: red;
+  font-style: italic;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.insight-button,
+.recommendation-button,
+.export-button {
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+  }
+}
