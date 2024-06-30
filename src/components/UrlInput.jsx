@@ -31,7 +31,7 @@ const UrlInput = ({ onSearch, urls: propUrls, updateUrls }) => {
         setBulkUrls("");
       }
     }
-  }, [isBulkMode, bulkUrls, newUrl, urls]);
+  }, [isBulkMode]);
 
   const handleAddUrl = () => {
     if (isBulkMode) {
